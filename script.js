@@ -22,4 +22,8 @@ function checkAnswer() {
     feedback.style.color = "red";
   }
 }
+function startGame() {
+  document.getElementById("bg-music").play(); // Ensures music starts after interaction
+  // continue with stage 1 setup...
+}
 
